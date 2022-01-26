@@ -9,8 +9,7 @@ link.rel = 'stylesheet';
 
 link.type = 'text/css';
 console.log
-link.href = 'https://nicesapien.github.io/typewriter.js/typewriter.js';
-console.log("hmm");
+link.href = 'https://nicesapien.github.io/typewriter.js/typewriter.css';
 
 // Append link element to HTML head
 head.appendChild(link);
