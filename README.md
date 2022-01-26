@@ -1,5 +1,4 @@
 # typewriter
-#### Typing animation effect
 
 # What is typewriter
 Typewriter allows you to animate HTML elements that contain text.
