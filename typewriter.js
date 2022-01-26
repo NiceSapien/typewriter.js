@@ -10,6 +10,7 @@ link.rel = 'stylesheet';
 link.type = 'text/css';
 
 link.href = 'https://cdn.jsdelivr.net/gh/NiceSapien/typewriter.js@main/typewriter.css';
+console.log("hmm");
 
 // Append link element to HTML head
 head.appendChild(link);
