@@ -7,7 +7,7 @@ For better explanation, see the [implemention guide](https://github.com/NiceSapi
 
 Include a script tag inside the head tag:
 ```html
-<script src="https://unpkg.com/@nicesapien/typewriter.js@0.0.1/typewriter.js"></script>
+<script src="https://unpkg.com/@nicesapien0/typewriter.js@0.0.2/typewriter.js"></script>
 ```
 Now, add a div element before the element you want to animate and set classes for both of them, make sure the class of first div is `typewriter-effect` and second div is `text`. You alsoe have to set id of second div to `typewriter-text`.
 ```html
