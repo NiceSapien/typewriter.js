@@ -4,6 +4,7 @@ Typewriter allows you to animate HTML elements that contain text.
 [Preview](https://nicesapien.github.io/typewriter.js/preview.html)
 # Implemention
 For better explanation, see the [implemention guide](https://github.com/NiceSapien/typewriter.js/wiki/Implementation)
+
 Include a script tag inside the head tag:
 ```html
 <script src="https://unpkg.com/@nicesapien/typewriter.js@0.0.1/typewriter.js"></script>
