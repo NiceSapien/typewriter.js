@@ -9,7 +9,7 @@ link.rel = 'stylesheet';
 
 link.type = 'text/css';
 
-link.href = 'https://cdn.jsdelivr.net/gh/NiceSapien/typewriter.js@e7e27456d4bf70b25197ab7e5f39df84f2e1fe1d/typewriter.css';
+link.href = 'https://unpkg.com/@nicesapien/typewriter.js@0.0.0/typewriter.css';
 
 // Append link element to HTML head
 head.appendChild(link);
