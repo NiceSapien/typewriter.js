@@ -1,6 +1,6 @@
 {
   "name": "@nicesapien0/typewriter.js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Make beautiful typewriter animations",
   "main": "typewriter.js",
   "scripts": {
@@ -20,5 +20,5 @@
   "bugs": {
     "url": "https://github.com/NiceSapien/typewriter.js/issues"
   },
-  "homepage": "https://nicesapien.github.io/typewriter.js"
+  "homepage": "https://typewriter.js.org/"
 }
