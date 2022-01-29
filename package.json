@@ -1,6 +1,6 @@
 {
   "name": "@nicesapien0/typewriter.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make beautiful typewriter animations",
   "main": "typewriter.js",
   "scripts": {
