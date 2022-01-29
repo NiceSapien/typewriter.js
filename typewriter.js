@@ -14,9 +14,13 @@ link.href = 'https://cdn.jsdelivr.net/npm/@nicesapien0/typewriter.js/typewriter.
 // Append link element to HTML head
 head.appendChild(link);
 
-function typewriter(text) {
-const typeWriter = document.getElementById('typewriter-text');
-
-typeWriter.innerHTML = text;
-typeWriter.style.setProperty('--characters', text.length);
+var typewriterConfig = ["Your Text", true];
+const tYpewriter = document.getElementsByClassName('typewriter-effect');
+function typewriter() {
+  const typeWriter = document.getElementById('typewriter-text');
+  if (typewriterConfig[1] == true) {
+    tYpewriter[tYpewriter.length - 1].style.setProperty('justify-content', 'center');
+  }
+  typeWriter.innerHTML = typewriterConfig[0];
+  typeWriter.style.setProperty('--characters', typewriterConfig[0].length);
 }
