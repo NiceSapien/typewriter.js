@@ -1,0 +1,24 @@
+{
+  "name": "@nicesapien0/typewriter.js",
+  "version": "0.1.0",
+  "description": "Make beautiful typewriter animations",
+  "main": "typewriter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiceSapien/typewriter.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "animation"
+  ],
+  "author": "NiceSapien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiceSapien/typewriter.js/issues"
+  },
+  "homepage": "https://typewriter.js.org/"
+}
