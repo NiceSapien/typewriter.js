@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: typewriter.js.org
+Token: e68c435e8976a9af88e4775c1c5947ce4aef9afc52df85c83d063530bcbd33be
