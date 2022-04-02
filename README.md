@@ -1,3 +1,4 @@
+> The `main` branch has the latest, alpha versions. For stable versions, use [npm](https://www.npmjs.com/package/@nicesapien0/typewriter.js) instead.
 # typewriter
 # What is typewriter
 Typewriter allows you to animate HTML elements that contain text.
