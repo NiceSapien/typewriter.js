@@ -15,7 +15,9 @@ link.href = 'https://cdn.jsdelivr.net/npm/@nicesapien0/typewriter.js/typewriter.
 head.appendChild(link);
 
 // default typewriter configuration
-var typewriterConfig = new Array("Your Text", true);
+var typewriterConfig = {
+  text: "Text",
+  center: true}
 // main div
 const tYpewriter = document.getElementsByClassName('typewriter-effect');
 // text div
@@ -24,11 +26,11 @@ const typeWriter = document.getElementById('typewriter-text');
 // execute typewriter
 function typewriter() {
 	// display text in center if specified
-	if (typewriterConfig[1] == true) {
+	if (typewriterConfig.center == true) {
 		tYpewriter[tYpewriter.length - 1].style.setProperty('justify-content', 'center');
 	}
 	
 	// set the text
-	typeWriter.innerHTML = typewriterConfig[0];
-	typeWriter.style.setProperty('--characters', typewriterConfig[0].length);
+	typeWriter.innerHTML = typewriterConfig.text;
+	typeWriter.style.setProperty('--characters', typewriterConfig.text.length);
 }
